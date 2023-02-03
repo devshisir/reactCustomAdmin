@@ -1,0 +1,11 @@
+// global part
+@import './global/_reset';
+@import './global/_color';
+@import './global/_scrollbar';
+
+// layout scss
+@import './layout/_layout';
+
+// component link
+@import './components/_sidebar';
+@import './components/_header';

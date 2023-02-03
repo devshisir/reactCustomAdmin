@@ -1,0 +1,66 @@
+
+.hover-scroll-y::-webkit-scrollbar {
+    width: 6px;
+}
+
+.hover-scroll-y::-moz-scrollbar {
+    width: 6px;
+}
+.hover-scroll-y::-o-scrollbar {
+    width: 6px;
+}
+.hover-scroll-y::-ms-scrollbar {
+    width: 6px;
+}
+
+.hover-scroll-y::-webkit-scrollbar-track {
+    display: none !important;
+    border-radius: 30px;
+}
+.hover-scroll-y::-moz-scrollbar-track {
+    display: none !important;
+    border-radius: 30px;
+}
+.hover-scroll-y::-o-scrollbar-track {
+    display: none !important;
+    border-radius: 30px;
+}
+.hover-scroll-y::-ms-scrollbar-track {
+    display: none !important;
+    border-radius: 30px;
+}
+
+.hover-scroll-y::-webkit-scrollbar-thumb {
+    background-color: #EFEFEF;
+    border-radius: 30px;
+    visibility: hidden;
+}
+.hover-scroll-y::-moz-scrollbar-thumb {
+    background-color: #EFEFEF;
+    border-radius: 30px;
+    visibility: hidden;
+}
+.hover-scroll-y::-o-scrollbar-thumb {
+    background-color: #EFEFEF;
+    border-radius: 30px;
+    visibility: hidden;
+}
+.hover-scroll-y::-ms-scrollbar-thumb {
+    background-color: #EFEFEF;
+    border-radius: 30px;
+    visibility: hidden;
+}
+
+
+.hover-scroll-y:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+.hover-scroll-y:hover::-moz-scrollbar-thumb{
+    visibility: visible;
+}
+.hover-scroll-y:hover::-o-scrollbar-thumb{
+    visibility: visible;
+}
+.hover-scroll-y:hover::-ms-scrollbar-thumb{
+    visibility: visible;
+}
